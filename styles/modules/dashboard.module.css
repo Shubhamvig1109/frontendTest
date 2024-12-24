@@ -1,0 +1,86 @@
+.dashboardMainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ffffff, #8fc1c7);
+    /* height: 100vh; */
+    padding: 40px;
+
+}
+
+.authenticationContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #001f3f;
+}
+
+.loginContaier {
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginContaier>h1 {
+    text-align: start;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0px;
+}
+
+.loginContaier>p {
+    margin-top: 0px;
+}
+
+.loginContaier>p>span {
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.formContainer>input {
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.formContainer button {
+    width: 70%;
+    margin-top: 20px;
+    height: 45px !important;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.loginImageContainer {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.loginImageContainer>img {
+    width: 70%;
+}

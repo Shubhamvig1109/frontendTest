@@ -1,0 +1,27 @@
+body {
+    color: #333333;
+    /* Text color on the gradient background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Choose an appropriate font-family */
+    /* Adjust the font size as needed */
+    /* Adjust the font weight (e.g., 400 for normal, 700 for bold) */
+    line-height: 1.5;
+}
+
+
+
+h1,
+h2,
+h3 {
+    color: #4a4a4a;
+    /* Slightly darker text color for headings */
+}
+
+:root {
+    --primary-color: #ff6f61;
+    --white-color:#ffff;
+    --dark-color:#0000
+}
+
+
+

@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 60px;
+    padding: 10px 40px 10px 10px;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+
+.header_content>li {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+.header_Login {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    list-style: none;
+    align-items: center;
+}
+
+.header_Login>button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: var(--white-color);
+    font-size: 14px;
+}
